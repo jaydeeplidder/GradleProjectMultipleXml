@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmployeeClass>
+	<Employee>
+		<Id>12</Id>
+		<reportingto>8</reportingto>
+		<designation>Team L</designation>
+		<FirstName>Dilpreet</FirstName>
+		<LastName>Grewal</LastName>
+		<Address>
+			<City>Patiala</City>
+			<Country>India</Country>
+			<Pincode>890069</Pincode>
+		</Address>
+		<Salary>
+			<Year name="2020">
+				<Month> January </Month>
+				<Amount>30000</Amount>
+				<Month>February</Month>
+				<Amount>8000</Amount>
+				<Month>March</Month>
+				<Amount>10000</Amount>
+				<Month>April</Month>
+				<Amount>20000</Amount>
+			</Year>
+			<Year name="2021">
+				<Month> January </Month>
+				<Amount>45000</Amount>
+				<Month>February</Month>
+				<Amount>78000</Amount>
+				<Month>March</Month>
+				<Amount>60000</Amount>
+				<Month>April</Month>
+				<Amount>63000</Amount>
+			</Year>
+		</Salary>
+
+	</Employee>
+	<Employee>
+
+		<Id>13</Id>
+		<reportingto>12</reportingto>
+		<designation>Team M</designation>
+		<FirstName>Goldy</FirstName>
+		<LastName>Garewal</LastName>
+		<Address>
+			<City>NY</City>
+			<Country>USA</Country>
+			<Pincode>20012</Pincode>
+		</Address>
+		<Salary>
+			<Year name="2020">
+				<Month> May </Month>
+				<Amount>59022</Amount>
+				<Month>June</Month>
+				<Amount>78000</Amount>
+				<Month>July</Month>
+				<Amount>140000</Amount>
+				<Month>August</Month>
+				<Amount>62333</Amount>
+			</Year>
+			<Year name="2021">
+				<Month> January </Month>
+				<Amount>342222</Amount>
+				<Month>February</Month>
+				<Amount>8000</Amount>
+				<Month>March</Month>
+				<Amount>10000</Amount>
+				<Month>April</Month>
+				<Amount>33000</Amount>
+			</Year>
+		</Salary>
+	</Employee>
+	<Employee>
+
+		<Id>14</Id>
+		<reportingto>12</reportingto>
+		<designation>Team M</designation>
+		<FirstName>Sahil</FirstName>
+		<LastName>Panchal</LastName>
+		<Address>
+			<City>Nepal</City>
+			<Country>India</Country>
+			<Pincode>330002</Pincode>
+		</Address>
+		<Salary>
+			<Year name="2020">
+				<Month> May </Month>
+				<Amount>59022</Amount>
+				<Month>June</Month>
+				<Amount>78000</Amount>
+				<Month>July</Month>
+				<Amount>140000</Amount>
+				<Month>August</Month>
+				<Amount>62333</Amount>
+			</Year>
+			<Year name="2021">
+				<Month> January </Month>
+				<Amount>342222</Amount>
+				<Month>February</Month>
+				<Amount>8000</Amount>
+				<Month>March</Month>
+				<Amount>10000</Amount>
+				<Month>April</Month>
+				<Amount>33000</Amount>
+			</Year>
+		</Salary>
+	</Employee>
+	
+
+</EmployeeClass>
