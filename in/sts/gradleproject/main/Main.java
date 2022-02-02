@@ -11,17 +11,17 @@ import in.sts.gradleproject.service.TeamLeaderService;
 import in.sts.gradleproject.service.UniqueEmployeeService;
 import in.sts.gradleproject.xmlreader.EmployeeReader;
 
-public class Main extends Thread {
+public class Main  {
 
 	public static void main(String[] args)  throws Exception {
-		EmployeeService es=new EmployeeService();
+//		EmployeeService es=new EmployeeService();
 		BasicConfigurator.configure();
 		// TODO Auto-generated method stub
-		Employee employeemodel=new Employee();
+//		Employee employeemodel=new Employee();
 		
 		MainThread mainthread=new MainThread();
 		mainthread.start();
-		es.list();
+//		es.list();
 		
 //		UniqueEmployeeService uniqueemployeeservice=new UniqueEmployeeService();
 //		uniqueemployeeservice.uniqueEmployee(employeemodel);

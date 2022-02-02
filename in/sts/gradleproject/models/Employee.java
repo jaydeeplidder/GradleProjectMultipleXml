@@ -120,7 +120,7 @@ public class Employee {
 		if (getClass() != obj.getClass())
 			return false;
 		Employee other = (Employee) obj;
-		return Objects.equals(firstname, other.firstname) && Objects.equals(lastname, other.lastname);
+		return Objects.equals(firstname, other.firstname) && Objects.equals(lastname, other.lastname) ;
 	}
 	public Employee(int id, int reportingto, String designation, String firstname, String lastname) {
 		super();

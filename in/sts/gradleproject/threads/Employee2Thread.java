@@ -28,11 +28,11 @@ public class Employee2Thread extends Thread {
 
 			for(Employee e:hashset)
 			{
-				logger.info("Reader id"+e.getId()+" "+e.getAddressmodel().getCity()+" "+e.getSalarymodel().getSalarylist());
+				logger.info("Reader id"+e.getId()+" "+e.getAddressmodel().toString()+" "+e.getSalarymodel().getSalarylist());
 			}
 
 			//			employeedao.employeedetailsInsert(hashset);
-			//			addressdao.addressdetailsInsert(hashset);
+			//						addressdao.addressdetailsInsert(hashset);
 			//			salarydao.salarydetailsInsert(hashset);
 
 		} catch (Exception e) {

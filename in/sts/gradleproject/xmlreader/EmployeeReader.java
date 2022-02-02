@@ -101,9 +101,9 @@ public class EmployeeReader
 
 					for (int k = 0; k <eElement.getElementsByTagName(Tagnames.Address).getLength() ; k++)   
 					{  
-						logger.info(addressnodeList.getLength());
+//						logger.info(addressnodeList.getLength());
 						Node addressnode = addressnodeList.item(k);  
-						logger.info("\nNode Name :" + addressnode.getNodeName());  
+//						logger.info("\nNode Name :" + addressnode.getNodeName());  
 						if (addressnode.getNodeType() == Node.ELEMENT_NODE)   
 						{   
 							Element addressElement = (Element)addressnode; 
@@ -116,7 +116,7 @@ public class EmployeeReader
 							int pincode=Integer.parseInt(addressElement.getElementsByTagName(Tagnames.Pincode).item(0).getTextContent().trim());
 
 
-							Address address=new Address(city,country,id);
+							Address address=new Address(city,country,pincode);
 							empmodel.setAddressmodel(address);
 //							addressservice.addressDetails(id,city, country, pincode);
 							//,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
@@ -139,7 +139,7 @@ public class EmployeeReader
 					NodeList salarynodeList =eElement.getElementsByTagName(Tagnames.Salary);//Salary node in XML
 					for (int i = 0; i < eElement.getElementsByTagName(Tagnames.Salary).getLength(); i++) {
 						Node s=salarynodeList.item(i);
-						logger.info("\nNode Name :" + s.getNodeName());  
+//						logger.info("\nNode Name :" + s.getNodeName());  
 						//						logger.info(salarynodeList.getLength());
 						ArrayList<Salary> salarylist=new ArrayList<>();
 
@@ -181,7 +181,7 @@ public class EmployeeReader
 							hashset2.addAll(hashset3);
 
 //							empdao.employeedetailsInsert(empmodel);
-
+							hashset3.clear();
 
 						}
 					}

@@ -37,12 +37,12 @@ public class AddressDao {
 					pstmt.setString(2, e.getAddressmodel().getCity());
 					pstmt.setString(3,e.getAddressmodel().getCountry());
 					pstmt.setInt(4,e.getAddressmodel().getPincode());
-				
+
 					result=pstmt.executeUpdate();
 				}
 
-				
-				
+
+
 			}
 			if(pstmt!=null)
 			{
